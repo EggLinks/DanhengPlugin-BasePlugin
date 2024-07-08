@@ -5,6 +5,7 @@ using EggLink.DanhengServer.Util;
 
 namespace DanhengPlugin.BasePlugin
 {
+    [PluginInfo("BasePlugin", "The base plugin of DanhengServer.", "1.0")]
     public class DanhengBasePlugin : IPlugin
     {
         Logger logger = new("BasePlugin");
