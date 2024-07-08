@@ -8,11 +8,20 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Reference Include="Common">
-      <HintPath>Libs\Common.dll</HintPath>
+    <Reference Include="DanhengCommand">
+      <HintPath>Libs\DanhengCommand.dll</HintPath>
+    </Reference>
+    <Reference Include="DanhengCommon">
+      <HintPath>Libs\DanhengCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="DanhengGameServer">
+      <HintPath>Libs\DanhengGameServer.dll</HintPath>
     </Reference>
     <Reference Include="DanhengServer">
       <HintPath>Libs\DanhengServer.dll</HintPath>
+    </Reference>
+    <Reference Include="DanhengWebServer">
+      <HintPath>Libs\DanhengWebServer.dll</HintPath>
     </Reference>
     <Reference Include="DmProvider">
       <HintPath>Libs\DmProvider.dll</HintPath>
@@ -23,11 +32,20 @@
     <Reference Include="Kdbndp">
       <HintPath>Libs\Kdbndp.dll</HintPath>
     </Reference>
+    <Reference Include="McMaster.NETCore.Plugins">
+      <HintPath>Libs\McMaster.NETCore.Plugins.dll</HintPath>
+    </Reference>
+    <Reference Include="McMaster.NETCore.Plugins.Mvc">
+      <HintPath>Libs\McMaster.NETCore.Plugins.Mvc.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Data.SqlClient">
       <HintPath>Libs\Microsoft.Data.SqlClient.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Data.Sqlite">
       <HintPath>Libs\Microsoft.Data.Sqlite.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.DotNet.PlatformAbstractions">
+      <HintPath>Libs\Microsoft.DotNet.PlatformAbstractions.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.EntityFrameworkCore">
       <HintPath>Libs\Microsoft.EntityFrameworkCore.dll</HintPath>
@@ -133,9 +151,6 @@
     </Reference>
     <Reference Include="System.Windows.Extensions">
       <HintPath>Libs\System.Windows.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="WebServer">
-      <HintPath>Libs\WebServer.dll</HintPath>
     </Reference>
   </ItemGroup>
 
