@@ -8,6 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto">
+      <HintPath>Libs\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
     <Reference Include="DanhengCommand">
       <HintPath>Libs\DanhengCommand.dll</HintPath>
     </Reference>
@@ -17,14 +20,20 @@
     <Reference Include="DanhengGameServer">
       <HintPath>Libs\DanhengGameServer.dll</HintPath>
     </Reference>
+    <Reference Include="DanhengKcpSharp">
+      <HintPath>Libs\DanhengKcpSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="DanhengProto">
+      <HintPath>Libs\DanhengProto.dll</HintPath>
+    </Reference>
     <Reference Include="DanhengServer">
       <HintPath>Libs\DanhengServer.dll</HintPath>
     </Reference>
     <Reference Include="DanhengWebServer">
       <HintPath>Libs\DanhengWebServer.dll</HintPath>
     </Reference>
-    <Reference Include="DmProvider">
-      <HintPath>Libs\DmProvider.dll</HintPath>
+    <Reference Include="DM.DmProvider">
+      <HintPath>Libs\DM.DmProvider.dll</HintPath>
     </Reference>
     <Reference Include="Google.Protobuf">
       <HintPath>Libs\Google.Protobuf.dll</HintPath>
@@ -98,6 +107,9 @@
     <Reference Include="Oracle.ManagedDataAccess">
       <HintPath>Libs\Oracle.ManagedDataAccess.dll</HintPath>
     </Reference>
+    <Reference Include="Oscar.Data.SqlClient">
+      <HintPath>Libs\Oscar.Data.SqlClient.dll</HintPath>
+    </Reference>
     <Reference Include="Spectre.Console">
       <HintPath>Libs\Spectre.Console.dll</HintPath>
     </Reference>
@@ -122,6 +134,9 @@
     <Reference Include="Swashbuckle.AspNetCore.SwaggerUI">
       <HintPath>Libs\Swashbuckle.AspNetCore.SwaggerUI.dll</HintPath>
     </Reference>
+    <Reference Include="System.CodeDom">
+      <HintPath>Libs\System.CodeDom.dll</HintPath>
+    </Reference>
     <Reference Include="System.Configuration.ConfigurationManager">
       <HintPath>Libs\System.Configuration.ConfigurationManager.dll</HintPath>
     </Reference>
@@ -139,6 +154,9 @@
     </Reference>
     <Reference Include="System.IdentityModel.Tokens.Jwt">
       <HintPath>Libs\System.IdentityModel.Tokens.Jwt.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management">
+      <HintPath>Libs\System.Management.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.Caching">
       <HintPath>Libs\System.Runtime.Caching.dll</HintPath>
